@@ -1,0 +1,27 @@
+name: 🔌 Connection / Server Issue
+description: Report if you are unable to connect to a room or getting disconnected
+title: "[CONNECTION] Cannot connect to room"
+labels: ["bug", "server"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form if you are experiencing **infinite loading**, **disconnections**, or **unable to join** errors.
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: What type of connection issue?
+      options:
+        - "I cannot generate a Room Code (Host)"
+        - "I cannot join a Room Code (Guest)"
+        - "I keep getting disconnected randomly"
+        - "Latency / lag is very high"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Please describe exactly what happens.
+    validations:
+      required: true

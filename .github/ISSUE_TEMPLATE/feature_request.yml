@@ -1,0 +1,30 @@
+name: 💡 Feature Request
+description: Suggest an idea or enhancement for Live Share
+title: "[FEATURE] <Short description>"
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Have a great idea for Live Share? We'd love to hear it!**
+  - type: textarea
+    id: problem
+    attributes:
+      label: 🧐 Is your feature request related to a problem?
+      description: Tell us why you need this feature.
+      placeholder: "I am always frustrated when I try to..."
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: 🎯 Describe the solution you'd like
+      description: What exactly should the new feature do? How should it look in Acode?
+      placeholder: "I would like a button that..."
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 🔄 Describe alternatives you've considered
+      description: Are there other ways to solve this problem right now?

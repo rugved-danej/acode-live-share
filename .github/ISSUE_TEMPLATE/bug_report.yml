@@ -1,0 +1,69 @@
+name: 🐛 Bug Report
+description: Report a bug to help us improve Acode Live Share
+title: "[BUG] <Short description>"
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Thank you for taking the time to report this!**
+        Please provide as much information as possible so we can fix it quickly.
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Before submitting...
+      options:
+        - label: I am using the latest version of the Live Share plugin from the Acode store.
+          required: true
+        - label: I have searched the existing issues to make sure this hasn't already been reported.
+          required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 📝 Description of the Bug
+      description: What went wrong? What exactly did you see?
+      placeholder: "When I try to..."
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 🔄 Steps to Reproduce
+      description: Exactly how can we trigger this bug?
+      placeholder: |
+        1. Open Live Share
+        2. Click on 'Start Session'
+        3. See error...
+    validations:
+      required: true
+  - type: dropdown
+    id: role
+    attributes:
+      label: Were you the Host or the Guest?
+      options:
+        - "Host (I created the room)"
+        - "Guest (I joined a room)"
+        - "Not applicable"
+    validations:
+      required: true
+  - type: input
+    id: plugin-version
+    attributes:
+      label: Plugin Version
+      description: Which version of Live Share are you using? (Check Acode Settings -> Plugins)
+      placeholder: "e.g., 1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device Model & OS
+      description: What phone/tablet are you using?
+      placeholder: "e.g., Samsung Galaxy S23, Android 14"
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: 🔍 Logs or Screenshots
+      description: If you have screenshots, or if there is an error in the Acode Console, paste it here!
