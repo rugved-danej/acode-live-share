@@ -7,8 +7,11 @@ This repository is used for:
 - 💡 **Feature Requests**
 - 💬 **General Feedback and Discussions**
 
-### How to use the plugin?
-Download the latest `plugin.zip` from the Acode plugin store or the releases page here.
+### How to Install
+You can easily install the plugin directly from your code editor!
+1. Open **Acode**
+2. Go to the **Plugin Store**
+3. Search for **Live Share**
+4. Tap **Download** and install!
 
-### Want to contribute?
-If you have an idea or found a bug, please check the [Issues](https://github.com/rugved-danej/acode-live-share/issues) tab to see if someone else has already reported it. If not, feel free to open a new issue!
+If you find a bug or have a great idea for a new feature, please check the [Issues](https://github.com/rugved-danej/acode-live-share/issues) tab to see if someone else has already reported it. If not, open a new issue!
